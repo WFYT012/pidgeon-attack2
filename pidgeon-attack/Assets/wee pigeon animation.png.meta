@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0cdea39a27f175449a92b8db978dee59
+guid: 9beebd51a7c1c0b469dceed801ded112
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Golden Knight walking_0
+      name: wee pigeon animation_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2668a3f3b22539b43900c407b37e47b7
-      internalID: -1822066675
+      spriteID: eae3595e2dd52d643967e5e1543a3148
+      internalID: -1828960322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Knight walking_1
+      name: wee pigeon animation_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 368923596b13c0b43b7c983977897e54
-      internalID: -511447935
+      spriteID: 64352bc16a9906b478d8f3956bdb3c78
+      internalID: 898419573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wee pigeon animation_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca42a962fe418f40938c6949426d36b
+      internalID: -1714392504
       vertices: []
       indices: 
       edges: []
@@ -162,8 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Golden Knight walking_0: -1822066675
-      Golden Knight walking_1: -511447935
+      wee pigeon animation_0: -1828960322
+      wee pigeon animation_1: 898419573
+      wee pigeon animation_2: -1714392504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
