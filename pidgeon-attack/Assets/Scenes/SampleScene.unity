@@ -10662,6 +10662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 617979293}
   - component: {fileID: 617979294}
+  - component: {fileID: 617979295}
   m_Layer: 0
   m_Name: Tabs
   m_TagString: Untagged
@@ -10715,6 +10716,18 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &617979295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617979292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d15c19cacf5424f8e8d37d4cbff10c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &655863369
 GameObject:
   m_ObjectHideFlags: 0
