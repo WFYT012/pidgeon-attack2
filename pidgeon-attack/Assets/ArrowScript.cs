@@ -8,6 +8,7 @@ public class ArrowScript : MonoBehaviour
     private Camera mainCam;
     private Rigidbody2D rb;
     public float force;
+   
 
     // Start is called before the first frame update
     void Start()
