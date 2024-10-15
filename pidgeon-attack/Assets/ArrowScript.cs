@@ -8,8 +8,8 @@ public class ArrowScript : MonoBehaviour
     private Camera mainCam;
     private Rigidbody2D rb;
     public float force;
-    
-   
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class ArrowScript : MonoBehaviour
         rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
         float rot = Mathf.Atan2(rotation.x, rotation.y) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot);
-        
+
     }
 
     // Update is called once per frame
@@ -30,4 +30,14 @@ public class ArrowScript : MonoBehaviour
     {
         Destroy(gameObject, 3);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Pigeon"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+    }
 }
+

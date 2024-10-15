@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pigeon : MonoBehaviour
 {
-    public GameObject GoldenKnight;
+    private GameObject GoldenKnight;
     public float speed;
     private SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
@@ -14,6 +14,7 @@ public class Pigeon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GoldenKnight = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -37,6 +38,7 @@ public class Pigeon : MonoBehaviour
             Destroy(other.gameObject);
 
     }
-
-    
 }
+
+  
+
