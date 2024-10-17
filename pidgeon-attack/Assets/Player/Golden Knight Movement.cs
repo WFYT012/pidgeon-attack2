@@ -9,6 +9,8 @@ public class GoldenKnightMovement : MonoBehaviour
     private Vector2 movementDirection;
     private SpriteRenderer spriteRenderer;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {

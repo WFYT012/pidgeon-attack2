@@ -37,6 +37,7 @@ public class Pigeon : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
             Destroy(other.gameObject);
 
+
     }
 }
 

@@ -36,7 +36,9 @@ public class ArrowScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Pigeon"))
         {
             Destroy(collision.gameObject);
+            ScoreManager.instance.AddPoint();
             Destroy(gameObject);
+            
         }
     }
 }
